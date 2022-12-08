@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <h1>Bahman World</h1>
+      <h1>Bahman World 2022</h1>
     </div>
   )
 }
