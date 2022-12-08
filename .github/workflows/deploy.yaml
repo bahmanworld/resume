@@ -1,4 +1,4 @@
-name: Deploy Website To SurgeSH
+name: Deploy to surge.sh
 
 on: [push]
 
@@ -13,4 +13,4 @@ jobs:
         with:
           node-version: 16
       - run: npm install -g surge
-      - run: surge ./dist ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+      - run: surge ./ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
