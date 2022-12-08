@@ -44,8 +44,9 @@ body {
 }
 
 header {
-  height: 200px;
+  min-height: 100px;
   background-color: blueviolet;
+  padding: 25px;
 }
 
 #inner {

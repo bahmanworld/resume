@@ -7,7 +7,10 @@ function App() {
     <div id="app">
       <div id="box">
         <header>
-          
+          <img
+            src={Avatar}
+            style={{ width: 100, height: 100, borderRadius: 250 }}
+          />
         </header>
         <div id="inner">Bahman World</div>
       </div>
