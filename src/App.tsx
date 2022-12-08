@@ -9,9 +9,7 @@ function App() {
     <div>
       <h1>Bahman World 2022</h1>
       <br/>
-      <button onClick={()=>{
-        alert('button clicked with myself')
-      }}>Click for more information babe</button>
+      <a href='mailto:bahman.world@gmail.com'>Mail me now</a>
     </div>
   )
 }
