@@ -37,7 +37,9 @@ body {
   box-shadow: 0 20px 40px #0002;
   align-self: stretch;
   overflow: hidden;
-  min-width: 800px;
+  width: 100%;
+  max-width: 900px;
+  min-width: 400px;
   min-height: 1000px;
 }
 
