@@ -1,18 +1,16 @@
 html {
   margin: 0;
   padding: 0;
-
 }
 
 body {
-  font: 10pt 'Segoe UI';
+  font: 10pt "Segoe UI";
   width: 100vw;
   height: 100vh;
   padding: 0;
   margin: 0;
   background-color: rebeccapurple;
 }
-
 
 #app {
   padding: 60px 0;
@@ -21,15 +19,15 @@ body {
   width: 100vw;
   overflow: auto;
   position: absolute;
-  top:0;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
-
 
 #box {
   padding: 0;
@@ -40,7 +38,17 @@ body {
   align-self: stretch;
   overflow: hidden;
   min-width: 800px;
-  height: 1000px;
+  min-height: 1000px;
+}
+
+@media screen and (max-width: 800px) {
+  #app {
+    padding: 0;
+  }
+
+  #box {
+    border-radius: 00px;
+  }
 }
 
 header {
