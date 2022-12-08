@@ -9,7 +9,11 @@ function App() {
     <div>
       <h1>Bahman World 2022</h1>
       <br/>
-      <a href='mailto:bahman.world@gmail.com'>Mail me now</a>
+      <br/>
+      <a href='mailto:bahman.world@gmail.com'>Mail Me Now</a>
+      <br/>
+      <br/>
+      <a href='tel:+989367036819'>Call Me</a>
     </div>
   )
 }
