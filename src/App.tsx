@@ -11,7 +11,7 @@ function App() {
       <br/>
       <button onClick={()=>{
         alert('button clicked')
-      }}>Click here for more information</button>
+      }}>Click here for more information on this site</button>
     </div>
   )
 }
