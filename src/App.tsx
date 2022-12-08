@@ -9,7 +9,7 @@ function App() {
     <div>
       <h1>Bahman World 2022</h1>
       <br/>
-      <button>Click here</button>
+      <button>Click here for more information</button>
     </div>
   )
 }
