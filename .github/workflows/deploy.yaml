@@ -37,12 +37,6 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
 
-    steps:
-      - name: Download artifact
-        with:
-          name: production-files
-          path: ./dist
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
