@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import Avatar from './assets/avatar.png'
 import './App.css'
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div>
+      <img src={Avatar} style={{width: 200, height: 200, borderRadius: 250}} />
       <h1>Bahman World 2022</h1>
       <br/>
       <br/>
