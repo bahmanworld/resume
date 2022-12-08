@@ -1,6 +1,53 @@
-#root {
-  max-width: 1280px;
+html {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font: 10pt 'Segoe UI';
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: rebeccapurple;
+}
+
+
+#app {
+  padding: 60px 0;
+  margin: 0;
+  background-color: #e3e3e3;
+  width: 100vw;
+  overflow: auto;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+#box {
+  padding: 0;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px #0002;
+  align-self: stretch;
+  overflow: hidden;
+  min-width: 800px;
+  height: 1000px;
+}
+
+header {
+  height: 200px;
+  background-color: blueviolet;
+}
+
+#inner {
+  padding: 25px;
 }
