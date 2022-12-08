@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "push" : "git add . && git commit -m 'commit1' && git push",
+    "push" : "git add . && git commit && git push",
     "build": "tsc && vite build && surge ./dist --domain bahmanworld.surge.sh",
     "deploy" : "npm run push && npm run build",
     "preview": "vite preview"
