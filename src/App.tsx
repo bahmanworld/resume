@@ -10,8 +10,8 @@ function App() {
       <h1>Bahman World 2022</h1>
       <br/>
       <button onClick={()=>{
-        alert('button clicked')
-      }}>Click for more</button>
+        alert('button clicked with myself')
+      }}>Click for more information babe</button>
     </div>
   )
 }
