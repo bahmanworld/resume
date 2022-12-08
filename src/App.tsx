@@ -6,8 +6,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <h1>Bahman World Damya</h1>
+    <div>
+      <h1>Bahman World</h1>
     </div>
   )
 }
