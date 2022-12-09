@@ -2,7 +2,7 @@ import { useState } from "react";
 import Avatar from "./assets/avatar.png";
 import "./App.css";
 
-function App() {
+function App() { 
   return (
     <div id="app">
       <div id="box">

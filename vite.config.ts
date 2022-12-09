@@ -7,5 +7,5 @@ export default defineConfig({
   base: "/resume/",
   build: { 
     outDir: "./docs"
-   },
+   }, 
 });
