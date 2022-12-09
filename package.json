@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "push" : "git add . && git commit && git push",
-    "build": "tsc && vite build && surge ./dist --domain bahmanworld.surge.sh",
-    "deploy" : "npm run push && npm run build",
+    "build": "tsc && vite build",
+    "deploy" : "npm run build && npm run push",
     "preview": "vite preview"
   },
   "dependencies": {
