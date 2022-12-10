@@ -1,5 +1,5 @@
 #root {
-  --primary-color: rebeccapurple;
+  --primary-color: #663399;
   --border-radius: 25px;
 }
 
@@ -59,6 +59,12 @@ h6 {
 #app {
   padding: 30px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    #app {
+      padding: 10px;
+    }
 }
 
 #container {
