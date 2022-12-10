@@ -8,20 +8,33 @@ function App() {
       <div id="container">
         <section>
           <div className="inner">
-            <h1>About Me</h1>
-            <div>Hello there, my name is Bahman Damia aka Bahman World.</div>
+            <h4>About Me</h4>
+            <div>
+              My name is Bahman Damya. I'm a web and mobile developer. I have
+              10+ years experiece developing mobile and web applications with
+              most popular frameworks and languages such as Javascript, Nodejs,
+              Java, Kotlin, Swift, ReactJS, React Native.
+            </div>
+            <br/>
+            <div><a href="tel:+989367036819">+989367036819</a></div>
           </div>
         </section>
 
         <section>
           <div className="inner">
-            <h1>Education</h1>
+            <h4>Education</h4>
+            <div>
+              <q>No education levels found yet.</q>
+            </div>
           </div>
         </section>
 
         <section>
           <div className="inner">
-            <h1>Works</h1>
+            <h4>Works</h4>
+            <div>
+              <q>No works found yet.</q>
+            </div>
           </div>
         </section>
       </div>

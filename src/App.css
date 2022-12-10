@@ -4,19 +4,31 @@
 }
 
 @font-face {
-  font-family: Circular;
-  src: url(./assets/circular/CircularStd-Book.ttf);
-}
-
-@font-face {
-  font-family: Circular;
-  src: url(./assets/circular/CircularStd-Medium.ttf);
+  font-family: WC2022;
+  src: url(./assets/ciwc2022/WC2022-Medium.otf);
   font-weight: 400;
 }
 
 @font-face {
-  font-family: Circular;
-  src: url(./assets/circular/CircularStd-Bold.otf);
+  font-family: WC2022;
+  src: url(./assets/wc2022/WC2022-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: SanFrancisco;
+  src: url(./assets/sf/sf-pro-text-regular.ttf);
+}
+
+@font-face {
+  font-family: SanFrancisco;
+  src: url(./assets/sf/sf-pro-text-medium.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: SanFrancisco;
+  src: url(./assets/sf/sf-pro-text-bold.otf);
   font-weight: bold;
 }
 
@@ -26,36 +38,38 @@ html {
 }
 
 body {
-  font: 10pt Circular;
+  font: 10pt SanFrancisco;
   padding: 0;
   margin: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: #f1f1f1;
+  background-color: #f1f3f6;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: WC2022;
   padding: 0;
-  margin: 0;
+  margin: 0 0 5px 0;
   font-size: 20pt;
 }
 
 #app {
-  padding: 50px 0;
+  padding: 30px;
+  margin: 0 auto;
 }
 
 #container {
-  width: 100vh;
   max-width: 900px;
   height: 2000px;
+  margin: 0 auto;
 }
 
 #container > section {
   background-color: #fff;
-  box-shadow: 0 10px 30px #0001;
+  box-shadow: 0 15px 20px #0001;
   border-radius: 20px;
   margin-bottom: 20px;
 }
