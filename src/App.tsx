@@ -24,14 +24,32 @@ function App() {
           <div className="inner">
             <h4>Education</h4>
             <div>
-              <q>No education levels found yet.</q>
+              <q>No educations found yet.</q>
             </div>
           </div>
         </section>
 
         <section>
           <div className="inner">
-            <h4>Works</h4>
+            <h4>Skills</h4>
+            <div>
+              <q>No skills found yet.</q>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="inner">
+            <h4>Languages</h4>
+            <div>
+              <q>No languages found yet.</q>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="inner">
+            <h4>Portfolio</h4>
             <div>
               <q>No works found yet.</q>
             </div>
