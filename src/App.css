@@ -1,64 +1,65 @@
+#root {
+  --primary-color: rebeccapurple;
+  --border-radius: 25px;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url(./assets/circular/CircularStd-Book.ttf);
+}
+
+@font-face {
+  font-family: Circular;
+  src: url(./assets/circular/CircularStd-Medium.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url(./assets/circular/CircularStd-Bold.otf);
+  font-weight: bold;
+}
+
 html {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font: 10pt "Segoe UI";
-  width: 100vw;
-  height: 100vh;
+  font: 10pt Circular;
   padding: 0;
   margin: 0;
-  background-color: rebeccapurple;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 20pt;
 }
 
 #app {
-  padding: 60px 0;
-  margin: 0;
-  background-color: #e3e3e3;
-  width: 100vw;
-  overflow: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
+  padding: 50px 0;
 }
 
-#box {
-  padding: 0;
-  margin: 0 auto;
+#container {
+  width: 100vh;
+  max-width: 900px;
+  height: 2000px;
+}
+
+#container > section {
   background-color: #fff;
+  box-shadow: 0 10px 30px #0001;
   border-radius: 20px;
-  box-shadow: 0 20px 40px #0002;
-  align-self: stretch; 
-  overflow: hidden;
-  width: 100%;
-  max-width: 800px;
-  min-width: 800px;
-  min-height: 1000px;
+  margin-bottom: 20px;
 }
 
-@media screen and (max-width: 800px) {
-  #app {
-    padding: 0;
-  }
-
-  #box {
-    border-radius: 00px;
-  }
-}
-
-header {
-  min-height: 100px;
-  background-color: blueviolet;
-  padding: 25px;
-}
-
-#inner {
-  padding: 25px;
+section > .inner {
+  padding: 20px;
 }
