@@ -16,7 +16,8 @@ function App() {
               Java, Kotlin, Swift, ReactJS, React Native.
             </div>
             <br/>
-            <div><a href="tel:+989367036819">+989367036819</a></div>
+            <div><a href="mailto:bahman.world@gmail.com">📝 bahman.world@gmail.com</a></div>
+            <div><a href="tel:+989367036819">📞 +989367036819</a></div>
           </div>
         </section>
 
