@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host", 
-    "push" : "git add . && git commit && git push",
+    "dev": "vite --host",
+    "push": "git add . && git commit && git push",
     "build": "tsc && vite build",
-    "deploy" : "npm run build && npm run push",
+    "deploy": "npm run build && npm run push",
     "preview": "vite preview"
   },
   "dependencies": {

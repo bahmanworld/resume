@@ -8,6 +8,15 @@ function App() {
       <div id="container">
         <section>
           <div className="inner">
+            <img
+              src={Avatar}
+              style={{
+                width: 100,
+                height: 100,
+                borderRadius: 100,
+                marginBottom: 20,
+              }}
+            />
             <h4>About Me</h4>
             <div>
               My name is Bahman Damya. I'm a web and mobile developer. I have
@@ -16,7 +25,8 @@ function App() {
               Java, Kotlin, Swift, ReactJS, React Native.
             </div>
             <br />
-            <div style={{marginBottom: 5}}>
+            <br />
+            <div style={{ marginBottom: 5 }}>
               <a href="mailto:bahman.world@gmail.com">
                 📨 bahman.world@gmail.com
               </a>

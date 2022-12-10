@@ -1,6 +1,12 @@
 #root {
-  --primary-color: #663399;
+  --primary-color: #794b38;
   --border-radius: 25px;
+}
+
+@media (prefers-color-scheme: dark) {
+  #root {
+    --primary-color: #d66639;
+  }
 }
 
 @font-face {
@@ -41,13 +47,20 @@ body {
   font: 10pt SanFrancisco;
   padding: 0;
   margin: 0;
-  background-color: #f1f3f6;
+  background-color: #eaecef;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ddd;
+    background-color: #111;
+  }
 }
 
 a {
   transition: all 0.2s ease;
   text-decoration: none;
-  color: initial;
+  color: inherit;
   border-bottom: 1px solid transparent;
 }
 
@@ -68,34 +81,40 @@ h6 {
   font-size: 20pt;
 }
 
+@media (prefers-color-scheme: dark) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--primary-color);
+  }
+}
+
 #app {
-  padding: 30px;
+  padding: 15px;
   margin: 0 auto;
 }
 
 #container {
   max-width: 900px;
-  height: 2000px;
   margin: 0 auto;
 }
 
 #container > section {
   background-color: #fff;
   box-shadow: 0 15px 20px #0001;
-  border-radius: 20px;
-  margin-bottom: 20px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+  #container > section {
+    background-color: #222;
+  }
 }
 
 section > .inner {
-  padding: 20px;
-}
-
-@media screen and (max-width: 800px) {
-  #app {
-    padding: 20px 15px;
-  }
-
-  #container > section {
-    margin-bottom: 10px;
-  }
+  padding: 25px;
 }
