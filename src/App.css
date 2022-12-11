@@ -11,7 +11,13 @@
 
 @font-face {
   font-family: WC2022;
-  src: url(./assets/ciwc2022/WC2022-Medium.otf);
+  src: url(./assets/wc2022/WC2022-Medium.otf);
+}
+
+
+@font-face {
+  font-family: WC2022;
+  src: url(./assets/wc2022/WC2022-Medium.otf);
   font-weight: 400;
 }
 
@@ -48,6 +54,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #eaecef;
+  color: #555;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -69,6 +76,7 @@ a:hover {
   border-bottom: 1px solid orangered;
 }
 
+
 h1,
 h2,
 h3,
@@ -77,8 +85,32 @@ h5,
 h6 {
   font-family: WC2022;
   padding: 0;
-  margin: 0 0 5px 0;
-  font-size: 20pt;
+  margin: 0 0 10px 0;
+  color: #222;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 10px;
+}
+
+h6 {
+  font-size: 10px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -92,13 +124,15 @@ h6 {
   }
 }
 
+
+
 #app {
   padding: 15px;
   margin: 0 auto;
 }
 
 #container {
-  max-width: 900px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -117,4 +151,52 @@ h6 {
 
 section > .inner {
   padding: 25px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.timeline .row {
+  position: relative;
+  border-left: 1px dashed #ccc;
+  padding: 0 20px 40px;
+}
+
+.timeline .row > * {
+  margin: 0;
+}
+
+
+.timeline .row svg{
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 100px;
+  top:0;
+  left: -7.2px;
+}
+
+
+.timeline .row circle {
+  fill: transparent;
+  stroke: #555;
+  stroke-width: 1.5;
+}
+
+.timeline .row svg .dashed {
+  stroke-dasharray: 2, 5;
+  stroke-linecap: round;
+}
+
+@media (prefers-color-scheme: dark) {
+  .timeline .row {
+    border-color: #444;
+  }
+  .timeline .row svg{
+    background-color: #222;
+  }
 }
