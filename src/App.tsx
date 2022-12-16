@@ -1,7 +1,7 @@
-import * as React from "react";
-import Avatar from "./assets/avatar.png";
-import "./App.css";
-import Educations from "./sections/Educations";
+import Avatar from './assets/avatar.png';
+import './App.css';
+import Educations from './sections/Educations';
+import { motion, useReducedMotion } from 'framer-motion';
 
 function App() {
   return (
@@ -12,24 +12,22 @@ function App() {
             <img
               src={Avatar}
               style={{
+                position: 'relative',
                 width: 100,
                 height: 100,
                 borderRadius: 100,
-                marginBottom: 20,
+                marginBottom: 30,
               }}
             />
             <h1 className="section-title">About Me</h1>
             <p>
-              My name is Bahman Damya. I'm a web and mobile developer. I have
-              10+ years experiece developing mobile and web applications with
-              most popular frameworks and languages such as Javascript, Nodejs,
-              Java, Kotlin, Swift, ReactJS, React Native.
+              My name is Bahman Damya. I'm a web and mobile developer. I have 10+ years experiece
+              developing mobile and web applications with most popular frameworks and languages such
+              as Javascript, Nodejs, Java, Kotlin, Swift, ReactJS, React Native.
             </p>
             <br />
             <div style={{ marginBottom: 5 }}>
-              <a href="mailto:bahman.world@gmail.com">
-                📨 bahman.world@gmail.com
-              </a>
+              <a href="mailto:bahman.world@gmail.com">📨 bahman.world@gmail.com</a>
             </div>
             <div>
               <a href="tel:+989367036819">📱 +989367036819</a>

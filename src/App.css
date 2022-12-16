@@ -14,7 +14,6 @@
   src: url(./assets/wc2022/WC2022-Medium.otf);
 }
 
-
 @font-face {
   font-family: WC2022;
   src: url(./assets/wc2022/WC2022-Medium.otf);
@@ -76,7 +75,6 @@ a:hover {
   border-bottom: 1px solid orangered;
 }
 
-
 h1,
 h2,
 h3,
@@ -124,8 +122,6 @@ h6 {
   }
 }
 
-
-
 #app {
   padding: 15px;
   margin: 0 auto;
@@ -169,17 +165,15 @@ section > .inner {
   margin: 0;
 }
 
-
-.timeline .row svg{
+.timeline .row svg {
   height: 14px;
   width: 14px;
   position: absolute;
   background-color: #fff;
   border-radius: 100px;
-  top:0;
+  top: 0;
   left: -7.2px;
 }
-
 
 .timeline .row circle {
   fill: transparent;
@@ -196,7 +190,7 @@ section > .inner {
   .timeline .row {
     border-color: #444;
   }
-  .timeline .row svg{
+  .timeline .row svg {
     background-color: #222;
   }
 }
